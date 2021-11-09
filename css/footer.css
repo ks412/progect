@@ -1,0 +1,114 @@
+.footer {
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto 50px;
+    padding: 0 15px;
+    background-color:#F9F9FB ;
+    padding-bottom: 30px;
+}
+
+.footer-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    border-bottom: #C4C4C4 solid 1px;
+}
+
+.footer-description {
+    margin: 20px  0;
+}
+
+@media screen and (max-width:1065px) {
+    .footer {
+    max-width: 1065px;
+    }
+
+    .footer-wrapper {
+    flex-wrap: wrap;
+    }
+    .footer-description{
+        width: 100%;
+        text-align: center;
+    
+    }
+    .destinations, .shop, .interests {
+        text-align: center;
+        flex: 0 0 33.33333%;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .destinations, .shop, .interests {
+       width: 100%;
+        flex: 0 0 auto;
+    }
+    
+}
+
+
+
+
+
+.description p:last-child {
+    padding-top: 55px;
+}
+
+.description p:first-child {
+    padding-top: 25px;
+}
+
+
+.footer-wrapper li {
+    list-style: none;
+}
+
+.description p, .footer-wrapper li > a {
+    text-decoration: none;
+    line-height: 38px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #848484;
+}
+
+    
+.footer-wrapper ul > p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.social__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    max-width: 250px;
+    padding-top: 30px;
+}
+
+.social__icons svg {
+    margin-left: 35px;
+}
+
+.twitter svg:first-child {
+    margin-left: 0;
+}
+
+
+@media screen and (max-width:767px) {
+    ul, li {
+        display: none;
+    }
+}
